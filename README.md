@@ -24,7 +24,7 @@ The goal was to develop a machine learning model that predicts the presence of h
 
 ### 🏆 Best Performing Model
 - **Logistic Regression** achieved the highest **F1 Score**, indicating the best trade-off between precision and recall.
-- While advanced models like **XGBoost**, **LightGBM**, and **CatBoost** showed strong performance, they **did not significantly outperform** Logistic Regression.
+- While advanced models like **XGBoost**, **LightGBM**, and **GBM** showed strong performance, they **did not significantly outperform** Logistic Regression.
 
 ---
 
