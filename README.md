@@ -7,9 +7,13 @@ The goal was to develop a machine learning model that predicts the presence of h
 
 ### 🤖 Models Evaluated
 - Logistic Regression
-- Gradient Boosting Machine (GBM)
+- Naive Bayes
+- Support Vector Machine(SVM)
+- K Nearest Neighbours (KNN)
+- Decision Tree
+- Random Forest
 - XGBoost
-- LightGBM
+- Neural Network
 
 ---
 
@@ -23,16 +27,8 @@ The goal was to develop a machine learning model that predicts the presence of h
 ---
 
 ### 🏆 Best Performing Model
-- **Logistic Regression** achieved the highest **F1 Score**, indicating the best trade-off between precision and recall.
-- While advanced models like **XGBoost**, **LightGBM**, and **GBM** showed strong performance, they **did not significantly outperform** Logistic Regression.
-
----
-
-### ✅ Why Logistic Regression?
-- Delivered the most balanced results across key metrics.
-- Fast and simple to train.
-- **Highly interpretable** — coefficients help explain model decisions.
-- Less prone to overfitting on a small-to-medium-sized dataset.
+- **Random Forest** achieved the highest **F1 Score**, indicating the best trade-off between precision and recall.
+- While models like ** Naive Bayes**, **SVM**, **KNN**, ** Decision Tree**, **XGBoost** and ** Neural Network** showed strong performance, they **did not significantly outperform** Logistic Regression.
 
 ---
 
@@ -52,5 +48,5 @@ The goal was to develop a machine learning model that predicts the presence of h
 ---
 
 ### ✅ Final Verdict
-> Despite experimenting with various ensemble techniques, **Logistic Regression** stood out as the **most reliable, interpretable, and balanced model** for this heart disease prediction task.
+> Despite experimenting with various ensemble techniques, **Random Forest** stood out as the **most reliable, interpretable, and balanced model** for this heart disease prediction task.
 
